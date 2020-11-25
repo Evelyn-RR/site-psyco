@@ -1,0 +1,1275 @@
+<!DOCTYPE html> 
+<html lang="en">
+	
+<!-- doccure/patient-profile.html  30 Nov 2020 04:12:09 GMT -->
+<head>
+		<meta charset="utf-8">
+		<title>Doccure</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		
+		<!-- Favicons -->
+		<link href="assets/img/favicon.png" rel="icon">
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- Fontawesome CSS -->
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+		
+		<!-- Datetimepicker CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
+		
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+	  
+		<link rel="stylesheet" href="css/aos.css">
+	  
+		<link rel="stylesheet" href="css/ionicons.min.css">
+	  
+		<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+		<link rel="stylesheet" href="css/jquery.timepicker.css">
+	  
+		
+		<link rel="stylesheet" href="css/flaticon.css">
+		<link rel="stylesheet" href="fonts/flaticon2/font/flaticon2.css">
+		<link rel="stylesheet" href="fonts/flaticon3/font/flaticon3.css">
+		<link rel="stylesheet" href="css/icomoon.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.min.js"></script>
+			<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	
+	</head>
+	<body>
+<!-- Itens de Navegação -->
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	<div class="container">
+	<a class="navbar-brand" href="menuProf.html"><img class="img-logo" src="images/logo.png" alt="" ></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="oi oi-menu"></span> Menu
+	</button>
+
+	  <div class="collapse navbar-collapse " id="ftco-nav">
+		<ul class="navbar-nav ml-auto">
+		  <li class="nav-item"><a href="menuProf.html" class="nav-link">Menu</a></li>
+		<li class="nav-item active"><a class="nav-link" href="perfilProf.html">Perfil</a></li>
+		<li class="nav-item "><a href="chat-do-profissional.html" class="nav-link">Conversa</a></li>
+		<li class="nav-item"><a href="buscarPsiquiatra.html" class="nav-link">Receita Médica</a></li>
+		<li class="nav-item cta"><a href="video.html" class="nav-link"><span>Solicitar Emergência</span></a></li>
+		<li class="nav-item cta"><a href="index.html" class="nav-link"><span>Sair</span></a></li>
+		</ul>
+	  </div>
+	</div>
+  </nav>
+      <!-- Background -->
+	  <div class="banner-chat img" id="section-counter" style="background-image: url(images/bg_2.jpg);">
+		<div id="Inicio" class="row-2 align-items-center" data-scrollax-parent="true">
+		  <div class="col-md-12 wrap col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+			<h1 class="mb-4 mt-5 text-center txt-banner" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Perfil do Paciente</h1>
+		  </div>
+		</div>
+	  </div>	
+		<!-- Main Wrapper -->
+		<div class="main-wrapper">
+		
+			<!-- Page Content -->
+			<div class="content">
+				<div class="container-fluid">
+
+					<div class="row">
+						<div class="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar dct-dashbd-lft">
+						
+							<!-- Profile Widget -->
+							<div class="card widget-profile pat-widget-profile">
+								<div class="card-body">
+									<div class="pro-widget-content">
+										<div class="profile-info-widget">
+											<a href="#" class="booking-doc-img">
+												<img src="assets/img/patients/patient.jpg" alt="User Image">
+											</a>
+											<div class="profile-det-info">
+												<h3>Matheus Lucas</h3>
+												
+												<div class="patient-details">
+													<h5><b>ID Paciente :</b> PT0016</h5>
+													<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Sorocaba, Brasil</h5>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="patient-info">
+										<ul>
+											<li>Telefone <span>+15 92001 8563</span></li>
+											<li>Idade <span>38 anos, Homem</span></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- /Profile Widget -->
+							
+							<!-- Last Booking -->
+							<div class="card">
+								<div class="card-header">
+									<h4 class="card-title">Últimas Conversas</h4>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">
+										<div class="media align-items-center">
+											<div class="mr-3">
+												<img alt="Image placeholder" src="assets/img/doctors/doctor-thumb-07.jpg" class="avatar  rounded-circle">
+											</div>
+											<div class="media-body">
+												<h5 class="d-block mb-0">Dra. Linda Tobin </h5>
+												<span class="d-block text-sm text-muted">Psicólogo</span>
+												<span class="d-block text-sm text-muted">14 Nov 2020 17.00 </span>
+											</div>
+										</div>
+									</li>
+									<li class="list-group-item">
+										<div class="media align-items-center">
+											<div class="mr-3">
+												<img alt="Image placeholder" src="assets/img/doctors/doctor-thumb-08.jpg" class="avatar  rounded-circle">
+											</div>
+											<div class="media-body">
+												<h5 class="d-block mb-0">Dr. Silvio Luís </h5>
+												<span class="d-block text-sm text-muted">Psiquiatra</span>
+												<span class="d-block text-sm text-muted">12 Nov 2020 11.00 </span>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<!-- /Last Booking -->
+							
+						</div>
+
+						<div class="col-md-7 col-lg-8 col-xl-9 dct-appoinment">
+							<div class="card">
+								<div class="card-body pt-0">
+									<div class="user-tabs">
+										<ul class="nav nav-tabs nav-tabs-bottom nav-justified flex-wrap">
+											<li class="nav-item">
+												<a class="nav-link active" href="#pat_appointments" data-toggle="tab">Compromissos</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="#pres" data-toggle="tab"><span>Prescrição</span></a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="#medical" data-toggle="tab"><span class="med-records">Registros Médicos</span></a>
+											</li>
+										</ul>
+									</div>
+									<div class="tab-content">
+										
+										<!-- Appointment Tab -->
+										<div id="pat_appointments" class="tab-pane fade show active">
+											<div class="card card-table mb-0">
+												<div class="card-body">
+													<div class="table-responsive">
+														<table class="table table-hover table-center mb-0">
+															<thead>
+																<tr>
+																	<th>Doutor</th>
+																	<th>Data</th>
+																	<th>Status</th>
+																	<th></th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Linda Tobin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>14 Nov 2020 <span class="d-block text-info">10.00 AM</span></td>
+																	<td><span class="badge badge-pill bg-success-light">Confirmado</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-success-light">
+																				<i class="far fa-edit"></i> Editar
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Linda Tobin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>12 Nov 2020 <span class="d-block text-info">8.00 PM</span></td>
+																	<td><span class="badge badge-pill bg-success-light">Confirmado</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-success-light">
+																				<i class="far fa-edit"></i> Editar
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Linda Tobin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>11 Nov 2020 <span class="d-block text-info">11.00 AM</span></td>
+																	<td><span class="badge badge-pill bg-danger-light">Cancelado</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-success-light">
+																				<i class="far fa-edit"></i> Editar
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Linda Tobin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>10 Nov 2020 <span class="d-block text-info">3.00 PM</span></td>
+																	<td><span class="badge badge-pill bg-warning-light">Pendente</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="edit-prescription.html" class="btn btn-sm bg-success-light">
+																				<i class="far fa-edit"></i> Editar
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-danger-light">
+																				<i class="far fa-trash-alt"></i> Cancelar
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Linda Tobin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>9 Nov 2020 <span class="d-block text-info">7.00 PM</span></td>
+																	<td><span class="badge badge-pill bg-success-light">Confirmado</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-success-light">
+																				<i class="far fa-edit"></i> Editar
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Linda Tobin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>8 Nov 2020 <span class="d-block text-info">9.00 AM</span></td>
+																	<td><span class="badge badge-pill bg-danger-light">Cancelado</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-success-light">
+																				<i class="far fa-edit"></i> Editar
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Linda Tobin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>8 Nov 2020 <span class="d-block text-info">6.00 PM</span></td>
+																	<td><span class="badge badge-pill bg-success-light">Confirmado</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-success-light">
+																				<i class="far fa-edit"></i> Editar
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Linda Tobin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>7 Nov 2020 <span class="d-block text-info">9.00 PM</span></td>
+																	<td><span class="badge badge-pill bg-info-light">Completo</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="far fa-clock"></i> Reprogramar
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Linda Tobin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>6 Nov 2020 <span class="d-block text-info">8.00 PM</span></td>
+																	<td><span class="badge badge-pill bg-info-light">Completo</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="far fa-clock"></i> Reprogramar
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Linda Tobin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>5 Nov 2020 <span class="d-block text-info">5.00 PM</span></td>
+																	<td><span class="badge badge-pill bg-info-light">Completo</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="far fa-clock"></i> Reprogramar
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- /Appointment Tab -->
+										
+										<!-- Prescrição Tab -->
+										<div class="tab-pane fade" id="pres">
+											<div class="card card-table mb-0">
+												<div class="card-body">
+													<div class="table-responsive">
+														<table class="table table-hover table-center mb-0">
+															<thead>
+																<tr>
+																	<th>Data </th>
+																	<th>Nome</th>									
+																	<th>Criado por: </th>
+																	<th></th>
+																</tr>     
+															</thead>
+															<tbody>
+																<tr>
+																	<td>14 Nov 2020</td>
+																	<td>Prescrição 1</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-01.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. Ruby Perrin <span>Psiquiatra</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>13 Nov 2020</td>
+																	<td>Prescrição 2</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-08.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. Silvio Luís <span>Psiquiatra</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>12 Nov 2020</td>
+																	<td>Prescrição 3</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-03.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Deborah Angel <span>Psiquiatra</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>11 Nov 2020</td>
+																	<td>Prescrição 4</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-04.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Sofia Brient <span>Psiquiatra</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>10 Nov 2020</td>
+																	<td>Prescrição 5</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-05.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. Marvin Campbell <span>Psiquiatra</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>9 Nov 2020</td>
+																	<td>Prescrição 6</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-06.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Katharine Berthold <span>Psiquiatra</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>8 Nov 2020</td>
+																	<td>Prescrição 7</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-08.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. Sílvio Luís <span>Psiquiatra</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>7 Nov 2020</td>
+																	<td>Prescrição 8</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-08.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. Paul Richard <span>Psiquiatra</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>6 Nov 2020</td>
+																	<td>Prescrição 9</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-09.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. John Gibbs <span>Psiquiatra</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>5 Nov 2020</td>
+																	<td>Prescrição 10</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-10.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Olga Barlow <span>Psiquiatra</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+															</tbody>	
+														</table>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- /Prescrição Tab -->
+
+										<!-- Medical Records Tab -->
+										<div class="tab-pane fade" id="medical">
+											<div class="text-right">		
+												<a href="#" class="add-new-btn" data-toggle="modal" data-target="#add_medical_records">Adicionar Registro Médico</a>
+											</div>
+											<div class="card card-table mb-0">
+												<div class="card-body">
+													<div class="table-responsive">
+														<table class="table table-hover table-center mb-0">
+															<thead>
+																<tr>
+																	<th>ID</th>
+																	<th>Data </th>
+																	<th>Descrição</th>
+																	<th>Compromisso</th>
+																	<th>Criado</th>
+																	<th></th>
+																</tr>     
+															</thead>
+															<tbody>
+																<tr>
+																	<td><a href="javascript:void(0);">#MR-0010</a></td>
+																	<td>14 Nov 2020</td>
+																	<td>Psicólogo Filling</td>
+																	<td><a href="#">dental-test.pdf</a></td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-01.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Ruby Perrin <span>Psiquiatra</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><a href="javascript:void(0);">#MR-0009</a></td>
+																	<td>13 Nov 2020</td>
+																	<td>Teeth Cleaning</td>
+																	<td><a href="#">dental-test.pdf</a></td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Linda Tobin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																			<a href="edit-prescription.html" class="btn btn-sm bg-success-light" data-toggle="modal" data-target="#add_medical_records">
+																				<i class="fas fa-edit"></i> Editar
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-danger-light">
+																				<i class="far fa-trash-alt"></i> Deletar
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><a href="javascript:void(0);">#MR-0008</a></td>
+																	<td>12 Nov 2020</td>
+																	<td>General Checkup</td>
+																	<td><a href="#">cardio-test.pdf</a></td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-03.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Deborah Angel <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><a href="javascript:void(0);">#MR-0007</a></td>
+																	<td>11 Nov 2020</td>
+																	<td>General Test</td>
+																	<td><a href="#">general-test.pdf</a></td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-04.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Sofia Brient <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><a href="javascript:void(0);">#MR-0006</a></td>
+																	<td>10 Nov 2020</td>
+																	<td>Eye Test</td>
+																	<td><a href="#">eye-test.pdf</a></td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-05.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. Marvin Campbell <span>Psiquiatra</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><a href="javascript:void(0);">#MR-0005</a></td>
+																	<td>9 Nov 2020</td>
+																	<td>Leg Pain</td>
+																	<td><a href="#">ortho-test.pdf</a></td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-06.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Katharine Berthold <span>Psiquiatra</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><a href="javascript:void(0);">#MR-0004</a></td>
+																	<td>8 Nov 2020</td>
+																	<td>Head pain</td>
+																	<td><a href="#">neuro-test.pdf</a></td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Linda Tobin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><a href="javascript:void(0);">#MR-0003</a></td>
+																	<td>7 Nov 2020</td>
+																	<td>Skin Alergy</td>
+																	<td><a href="#">alergy-test.pdf</a></td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-08.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. Paul Richard <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><a href="javascript:void(0);">#MR-0002</a></td>
+																	<td>6 Nov 2020</td>
+																	<td>Psicólogo Removing</td>
+																	<td><a href="#">dental-test.pdf</a></td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-09.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. John Gibbs <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><a href="javascript:void(0);">#MR-0001</a></td>
+																	<td>5 Nov 2020</td>
+																	<td>Psicólogo Felling</td>
+																	<td><a href="#">psico-test.pdf</a></td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-10.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Olga Barlow <span>Psiquiatra</span></a>
+																		</h2>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+															</tbody>  	
+														</table>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- /Medical Records Tab -->
+										
+										<!-- Billing Tab -->
+										<div class="tab-pane" id="billing">
+											<div class="text-right">
+												<a class="add-new-btn" href="add-billing.html">Add Billing</a>
+											</div>
+											<div class="card card-table mb-0">
+												<div class="card-body">
+													<div class="table-responsive">
+													
+														<table class="table table-hover table-center mb-0">
+															<thead>
+																<tr>
+																	<th>Invoice No</th>
+																	<th>Doctor</th>
+																	<th>Amount</th>
+																	<th>Paid On</th>
+																	<th></th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>
+																		<a href="invoice-view.html">#INV-0010</a>
+																	</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-01.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Ruby Perrin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>$450</td>
+																	<td>14 Nov 2020</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="invoice-view.html">#INV-0009</a>
+																	</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dra. Linda Tobin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>$300</td>
+																	<td>13 Nov 2020</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																			<a href="edit-billing.html" class="btn btn-sm bg-success-light">
+																				<i class="fas fa-edit"></i> Editar
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-danger-light">
+																				<i class="far fa-trash-alt"></i> Deletar
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="invoice-view.html">#INV-0008</a>
+																	</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-03.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. Deborah Angel <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>$150</td>
+																	<td>12 Nov 2020</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="invoice-view.html">#INV-0007</a>
+																	</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-04.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. Sofia Brient <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>$50</td>
+																	<td>11 Nov 2020</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="invoice-view.html">#INV-0006</a>
+																	</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-05.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. Marvin Campbell <span>Ophthalmology</span></a>
+																		</h2>
+																	</td>
+																	<td>$600</td>
+																	<td>10 Nov 2020</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="invoice-view.html">#INV-0005</a>
+																	</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-06.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. Katharine Berthold <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>$200</td>
+																	<td>9 Nov 2020</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="invoice-view.html">#INV-0004</a>
+																	</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. Linda Tobin <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>$100</td>
+																	<td>8 Nov 2020</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="invoice-view.html">#INV-0003</a>
+																	</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-08.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. Paul Richard <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>$250</td>
+																	<td>7 Nov 2020</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="invoice-view.html">#INV-0002</a>
+																	</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-09.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. John Gibbs <span>Psicólogo</span></a>
+																		</h2>
+																	</td>
+																	<td>$175</td>
+																	<td>6 Nov 2020</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="invoice-view.html">#INV-0001</a>
+																	</td>
+																	<td>
+																		<h2 class="table-avatar">
+																			<a href="perfilProf-pac.html" class="avatar avatar-sm mr-2">
+																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-10.jpg" alt="User Image">
+																			</a>
+																			<a href="perfilProf-pac.html">Dr. Olga Barlow <span>#0010</span></a>
+																		</h2>
+																	</td>
+																	<td>$550</td>
+																	<td>5 Nov 2020</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+																				<i class="fas fa-print"></i> Imprimir
+																			</a>
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> Ver
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- Billing Tab -->
+												
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>		
+			<!-- /Page Content -->
+		</div>
+		<!-- /Main Wrapper -->
+		
+		<!-- Add Medical Records Modal -->
+		<div class="modal fade custom-modal" id="add_medical_records">
+			<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title">Registros Médicos</h3>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					</div>
+					<form>					
+						<div class="modal-body">
+							<div class="form-group">
+								<label>Data</label>
+								<input type="text" class="form-control datetimepicker" value="31-10-2020">
+							</div>
+							<div class="form-group">
+								<label>Descrição ( Opcional )</label>
+								<textarea class="form-control"></textarea>
+							</div>
+							<div class="form-group">
+								<label>Subir arquivo</label> 
+								<input type="file" class="form-control">
+							</div>	
+							<div class="submit-section text-center">
+								<button type="submit" class="btn btn-primary submit-btn">Enviar</button>
+								<button type="button" class="btn btn-secondary submit-btn" data-dismiss="modal">Cancelar</button>							
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- /Add Medical Records Modal -->
+	  
+		<!-- jQuery -->
+		<script src="assets/js/jquery.min.js"></script>
+		
+		<!-- Bootstrap Core JS -->
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- Datetimepicker JS -->
+		<script src="assets/js/moment.min.js"></script>
+		<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+		
+		<!-- Sticky Sidebar JS -->
+        <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+        <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+		
+		<!-- Custom JS -->
+		<script src="assets/js/script.js"></script>
+		<script src="assets/js/script.js"></script>
+		<script src="js/demo/datatables-demo.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-migrate-3.0.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/aos.js"></script>
+		<script src="js/jquery.animateNumber.min.js"></script>
+		<script src="js/bootstrap-datepicker.js"></script>
+		<script src="js/jquery.timepicker.min.js"></script>
+		<script src="js/scrollax.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+		<script src="js/google-map.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+
+<!-- doccure/patient-profile.html  30 Nov 2020 04:12:13 GMT -->
+</html>

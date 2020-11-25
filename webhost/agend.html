@@ -1,0 +1,467 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Agendamento!</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		
+	<!-- Favicons -->
+  <link href="images/topo.png" rel="icon">
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+		
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	  
+	<link rel="stylesheet" href="css/aos.css">
+	  
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	  
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+	  
+		
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="fonts/flaticon2/font/flaticon2.css">
+	<link rel="stylesheet" href="fonts/flaticon3/font/flaticon3.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+		
+
+</head>
+
+<body id="page-top">
+<!-- Itens de Navegação -->
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="menuPac.html"><img class="img-logo" src="images/logo.png" alt="" ></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="oi oi-menu"></span> Menu
+    </button>
+
+    <div class="collapse navbar-collapse " id="ftco-nav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="menuPac.html" class="nav-link">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="perfilPaci.html">Perfil</a></li>
+        <li class="nav-item active"><a class="nav-link" href="agend.html">Agendamento</a></li>
+        <li class="nav-item"><a href="chat-do-paciente.html" class="nav-link">Conversa</a></li>
+        <li class="nav-item"><a href="listar-receitas-pac.html" class="nav-link">Receita Médica</a></li>
+        <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Solicitar Emergência</span></a></li>
+        <li class="nav-item cta"><a href="index.html" class="nav-link"><span>Sair</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Background -->
+<div class="banner-chat img" id="section-counter" style="background-image: url(images/bg_2.jpg);">
+  <div id="Inicio" class="row-2 align-items-center" data-scrollax-parent="true">
+    <div class="col-md-12 wrap col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+      <h1 class="mb-4 mt-5 text-center txt-banner" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Agendamento</h1>
+    </div>
+  </div>
+</div>
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" color="#0bbfc5b0">
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon">
+          <img class="img-profile rounded-circle" src="images/logoAgend.png">        
+        </div>
+        <div class="sidebar-brand-text mx-3">Psy.co</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href= "#">
+        <div class="sidebar-brand-icon">
+          <img style="height: 50px; width: 50px;" class="img-profile rounded-circle" src="assets/img/patients/patient.jpg">   
+        </div>
+        <br>
+        <div class="sidebar-brand-text mx-3">Matheus Lucas</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item">
+        <a class="nav-link" href="agend.html">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Início</span></a>
+        </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <li class="nav-item">
+          <a class="nav-link" href="agendamento.html">
+            <i class="fas fa-fw fa-file"></i>
+            <span>Agendamento</span></a>
+          </li>
+
+              
+              <!-- Divider -->
+              <hr class="sidebar-divider">
+
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  <span>Sair</span></a>
+              </li>
+
+
+              <!-- Divider -->
+              <hr class="sidebar-divider d-none d-md-block">
+
+              <!-- Sidebar Toggler (Sidebar) -->
+              <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+              </div>
+
+            </ul>
+            <!-- End of Sidebar -->
+
+            <!-- Content Wrapper -->
+            <div id="content-wrapper" class="d-flex flex-column">
+
+              <!-- Main Content -->
+              <div id="content">
+        
+                  <!-- Sidebar Toggle (Topbar) -->
+                  <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                    <i class="fa fa-bars"></i>
+                  </button>
+
+                  <!-- Topbar Navbar -->
+                  <ul class="navbar-nav ml-auto">
+
+                      <!-- Dropdown - Messages -->
+                      <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                        <form class="form-inline mr-auto w-100 navbar-search">
+                          <div class="input-group">
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                              <button class="btn btn-primary" type="button">
+                                <i class="fas fa-search fa-sm"></i>
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </li>
+
+                    <div class="topbar-divider d-none d-sm-block"></div>
+
+                    <br>
+                    
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                  <!-- Page Heading -->
+                  <h1 class="h3 mb-4 text-gray-800">Pagina inicial</h1>
+
+                  <!-- Content Row -->
+                  <div class="row">
+
+                    <!-- Earnings (Monthly) Card Example -->
+                    <div class="col-xl-6 col-md-6 mb-4">
+                      <div class="card border-left-primary shadow h-100 py-2">
+                        <div class="card-body">
+                          <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                              <div class="text-xs font-weight-bold text-primary text-uppercase mb-1" >Consultas por vídeo.</div>
+                              <div class="h5 mb-0 font-weight-bold text-gray-800">4</div>
+                            </div>
+                            <div class="col-auto">
+                              <a  href="video.html">
+                              <i class="fas fa-video fa-2x text-gray-300"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                    <!-- Earnings (Monthly) Card Example -->
+                    <div class="col-xl-6 col-md-6 mb-4">
+                      <div class="card border-left-info shadow h-100 py-2">
+                        <div class="card-body">
+                          <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                              <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Consultas por áudio.</div>
+                              <div class="row no-gutters align-items-center">
+                                <div class="col-auto">
+                                  <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">3</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-auto">
+                              <a  href="audio.html">
+                              <i class="fas fa-microphone fa-2x text-gray-300"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+
+                    <!-- Earnings (Monthly) Card Example -->
+                    <div class="col-xl-4 col-md-6 mb-4">
+                      <div class="card border-left-success shadow h-80 py-2">
+                        <div class="card-body">
+                          <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                              <div class="profile-widget">
+                                <div class="doc-img">
+                                  <a href="#">
+                                    <img class="img-fluid" alt="User Image" src="images/dra1.jpg">
+                                  </a>                                  
+                                </div>
+                                <br>
+                                <div class="pro-content">
+                                  <h3 class="title">
+                                    <a href="#">Dra. Ruby Perrin</a> 
+                                    <i class="fas fa-check-circle verified"></i>
+                                  </h3>
+                                  <p class="speciality"><i class="fas fa-capsules"></i> Psiquiatra</p> 
+                                  <div class="rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <span class="d-inline-block average-rating">(17)</span>
+                                  </div>
+                                  <br>
+                                  <ul class="available-info">
+                                    <li>
+                                      <i class="far fa-clock"></i> Disponível para agendamento
+                                    </li>
+                                    <br>
+                                  </ul>
+                                  <div class="row row-sm">
+                                    <div class="col-6">
+                                      <a  href="perfilProf-pac.html">
+                                      <button type="button" class="btn btn-primary">Ver Perfil</button></a>
+                                    </div>
+                                    <div class="col-6">
+                                      <a  href="agendar1.html">
+                                      <button type="button" class="btn btn-info" >Agendar</button></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Earnings (Monthly) Card Example -->
+                    <div class="col-xl-4 col-md-6 mb-4">
+                      <div class="card border-left-success shadow h-80 py-2">
+                        <div class="card-body">
+                          <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                              <div class="profile-widget">
+                                <div class="doc-img">
+                                  <a href="#">
+                                    <img class="img-fluid" alt="User Image" src="images/dr2.jpg">
+                                  </a>                                  
+                                </div>
+                                <br>
+                                <div class="pro-content">
+                                  <h3 class="title">
+                                    <a href="#">Dr. Marvin Silva</a> 
+                                    <i class="fas fa-check-circle verified"></i>
+                                  </h3>
+                                  <p class="speciality"><i class="fas fa-brain"></i> Psicologo(a)</p>   
+                                  <div class="rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <span class="d-inline-block average-rating">(26)</span>
+                                  </div>
+                                  <br>
+                                  <ul class="available-info">
+                                    <li>
+                                      <i class="far fa-clock"></i> Não está disponível para agendamento
+                                    </li>
+                                    <br>
+                                  </ul>
+                                  <div class="row row-sm">
+                                    <div class="col-6">
+                                      <a  href="perfilProf-pac.html">
+                                      <button type="button" class="btn btn-primary">Ver Perfil</button></a>
+                                    </div>
+                                    <div class="col-6">
+                                        <button type="button" class="btn btn-info"  disabled>Agendar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Earnings (Monthly) Card Example -->
+                    <div class="col-xl-4 col-md-6 mb-4">
+                      <div class="card border-left-success shadow h-80 py-2">
+                        <div class="card-body">
+                          <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                              <div class="profile-widget">
+                                <div class="doc-img">
+                                  <a href="#">
+                                    <img class="img-fluid" alt="User Image" src="images/dra3.jpg">
+                                  </a>                                  
+                                </div>
+                                <br>
+                                <div class="pro-content">
+                                  <h3 class="title">
+                                    <a href="#">Dra. Linda Tobin</a> 
+                                    <i class="fas fa-check-circle verified"></i>
+                                  </h3>
+                                  <p class="speciality"><i class="fas fa-brain"></i> Psicologo(a)</p>  
+                                  <div class="rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <span class="d-inline-block average-rating">(20)</span>
+                                  </div>
+                                  <br>
+                                  <ul class="available-info">
+                                    <li>
+                                      <i class="far fa-clock"></i> Disponível para agendamento
+                                    </li>
+                                    <br>
+                                  <div class="row row-sm">
+                                    <div class="col-6">
+                                      <a  href="perfilProf-pac.html">
+                                      <button type="button" class="btn btn-primary">Ver Perfil</button></a>
+                                    </div>
+                                    <div class="col-6">                                      
+                                      <a  href="agendar2.html">
+                                      <button type="button" class="btn btn-info">Agendar</button></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+                <!-- /.container-fluid -->
+
+              </div>
+              <!-- End of Main Content -->
+
+              <!-- Footer -->
+              <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                  <div class="copyright text-center my-auto">
+                    <span>Copyright &copy; 2020 &mdash; Psy.co</span>
+                  </div>
+                </div>
+              </footer>
+              <!-- End of Footer -->
+
+            </div>
+            <!-- End of Content Wrapper -->
+
+          </div>
+          <!-- End of Page Wrapper -->
+
+          <!-- Scroll to Top Button-->
+          <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+          </a>
+
+          <!-- Logout Modal-->
+          <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Deseja sair?</h5>
+                  <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+                </div>
+                <div class="modal-body">Selecione "Sair" para encerar sua sessão.</div>
+                <div class="modal-footer">
+                  <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+                  <a class="btn btn-primary" href="login.html">Sair</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bootstrap core JavaScript-->
+          <script src="vendor/jquery/jquery.min.js"></script>
+          <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+          <!-- Core plugin JavaScript-->
+          <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+          <!-- Custom scripts for all pages-->
+          <script src="js/sb-admin-2.min.js"></script>
+          <script src="js/demo/datatables-demo.js"></script>
+          <script src="js/demo/datatables-demo.js"></script>
+          <script src="js/jquery.min.js"></script>
+          <script src="js/jquery-migrate-3.0.1.min.js"></script>
+          <script src="js/popper.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <script src="js/jquery.easing.1.3.js"></script>
+          <script src="js/jquery.waypoints.min.js"></script>
+          <script src="js/jquery.stellar.min.js"></script>
+          <script src="js/owl.carousel.min.js"></script>
+          <script src="js/jquery.magnific-popup.min.js"></script>
+          <script src="js/aos.js"></script>
+          <script src="js/jquery.animateNumber.min.js"></script>
+          <script src="js/bootstrap-datepicker.js"></script>
+          <script src="js/jquery.timepicker.min.js"></script>
+          <script src="js/scrollax.min.js"></script>
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+          <script src="js/google-map.js"></script>
+          <script src="js/main.js"></script>
+</body>
+
+</html>
