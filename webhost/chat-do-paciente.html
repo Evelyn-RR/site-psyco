@@ -1,0 +1,871 @@
+<!DOCTYPE html> 
+<html lang="en">
+	
+<!-- doccure/chat.html  30 Nov 2019 04:12:18 GMT -->
+<head>
+		<meta charset="utf-8">
+		<title>Doccure</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		
+		<!-- Favicons -->
+		<link href="images/topo.png" rel="icon">
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- Fontawesome CSS -->
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+    
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.min.js"></script>
+			<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+	  
+		<link rel="stylesheet" href="css/aos.css">
+	  
+		<link rel="stylesheet" href="css/ionicons.min.css">
+	  
+		<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+		<link rel="stylesheet" href="css/jquery.timepicker.css">
+	  
+		
+		<link rel="stylesheet" href="css/flaticon.css">
+		<link rel="stylesheet" href="fonts/flaticon2/font/flaticon2.css">
+		<link rel="stylesheet" href="fonts/flaticon3/font/flaticon3.css">
+		<link rel="stylesheet" href="css/icomoon.css">
+		<link rel="stylesheet" href="css/style.css">
+	
+	</head>
+	<body class="chat-page">
+
+     <!-- Itens de Navegação -->
+     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+        <a class="navbar-brand" href="menuPac.html"><img class="img-logo" src="images/logo.png" alt="" ></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+
+	      <div class="collapse navbar-collapse " id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="menuPac.html" class="nav-link">Menu</a></li>
+			<li class="nav-item"><a class="nav-link" href="#Indices">Perfil</a></li>
+			<li class="nav-item"><a class="nav-link" href="agend.html">Agendamento</a></li>
+            <li class="nav-item active"><a href="chat-do-paciente.html" class="nav-link">Conversa</a></li>
+            <li class="nav-item"><a href="listar-receitas-pac.html" class="nav-link">Receita Médica</a></li>
+            <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Solicitar Emergência</span></a></li>
+            <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Sair</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+    <!-- Background -->
+    <div class="banner-chat img" id="section-counter" style="background-image: url(images/bg_2.jpg);">
+      <div id="Inicio" class="row-2 align-items-center" data-scrollax-parent="true">
+        <div class="col-md-12 wrap col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+          <h1 class="mb-4 mt-5 text-center txt-banner" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Conversa com Profissionais</h1>
+        </div>
+      </div>
+    </div>
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#Inicio">
+        <div class="sidebar-brand-icon">
+          <img class="img-profile rounded-circle" src="images/logoAgend.png">        
+        </div>
+        <div class="sidebar-brand-text mx-3">Psy.co</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+      
+     <!-- Sidebar - Brand -->
+     <a class="sidebar-brand d-flex align-items-center justify-content-center" href= "#">
+      <div class="sidebar-brand-icon">
+        <img style="height: 50px; width: 50px;" class="img-profile rounded-circle" src="assets/img/patients/patient.jpg">       
+      </div>
+      <br>
+      <div class="sidebar-brand-text mx-3">Matheus Lucas</div>
+    </a>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider my-0">
+
+    <!-- Nav Item - Dashboard -->
+    <li class="nav-item">
+      <a class="nav-link" href="chat-do-paciente.html">
+        <i class="fas fa-fw fa-tachometer-alt"></i>
+        <span>Conversa</span></a>
+	  </li>
+	      <!-- Divider -->
+		  <hr class="sidebar-divider my-0">
+
+		  <!-- Nav Item - Dashboard -->
+		  <li class="nav-item">
+			<a class="nav-link" href="listar-receitas-pac.html">
+			  <i class="fas fa-fw fa-tachometer-alt"></i>
+			  <span>Receitas</span></a>
+			</li>
+	<!-- Divider -->
+	<hr class="sidebar-divider">
+
+	<li class="nav-item">
+	<a class="nav-link" href="#">
+		<span>Consultas por:</span></a>
+	</li>
+
+   <li class="nav-item">
+     <a class="nav-link" href="audio.html">
+       <i class= "fas fa-microphone"></i>
+       <span>Áudio</span></a>
+     </li>
+
+     <li class="nav-item">
+       <a class="nav-link" href="video.html">
+         <i class="fas fa-video"></i>
+         <span>Vídeo</span></a>
+       </li>
+
+
+              <!-- Divider -->
+              <hr class="sidebar-divider">
+
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  <span>Sair</span></a>
+              </li>
+
+              <!-- Divider -->
+              <hr class="sidebar-divider d-none d-md-block">
+
+              <!-- Sidebar Toggler (Sidebar) -->
+              <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+              </div>
+
+            </ul>
+            <!-- End of Sidebar -->
+			
+			<!-- Page Content -->
+			<div class="content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xl-12">
+							<div class="chat-window">
+							
+								<!-- Chat Left -->
+								<div class="chat-cont-left">
+									<div class="chat-header">
+										<span>Chats</span>
+										<a href="javascript:void(0)" class="chat-compose">
+											<i class="material-icons">control_point</i>
+										</a>
+									</div>
+									<form class="chat-search">
+										<div class="input-group">
+											<div class="input-group-prepend">
+												<i class="fas fa-search"></i>
+											</div>
+											<input type="text" class="form-control" placeholder="Pesquisar">
+										</div>
+									</form>
+									<div class="chat-users-list">
+										<div class="chat-scroll">
+											<a href="javascript:void(0);" class="media read-chat active">
+												<div class="media-img-wrap">
+													<div class="avatar avatar-online">
+														<img src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image" class="avatar-img rounded-circle">
+													</div>
+												</div>
+												<div class="media-body">
+													<div>
+														<div class="user-name">Dra. Linda Tobin</div>
+														<div class="user-last-chat"></div>
+													</div>
+													<div>
+														<div class="last-chat-time block">2 min</div>
+														<div class="badge badge-success badge-pill">15</div>
+													</div>
+												</div>
+											</a>
+											<a href="javascript:void(0);" class="media read-chat">
+												<div class="media-img-wrap">
+													<div class="avatar avatar-online">
+														<img src="assets/img/doctors/doctor-thumb-02.jpg" alt="User Image" class="avatar-img rounded-circle">
+													</div>
+												</div>
+												<div class="media-body">
+													<div>
+														<div class="user-name">Dr. Darren Elder</div>
+														<div class="user-last-chat">Falo com você depois</div>
+													</div>
+													<div>
+														<div class="last-chat-time block">8:01 PM</div>
+													</div>
+												</div>
+											</a>
+											<a href="javascript:void(0);" class="media">
+												<div class="media-img-wrap">
+													<div class="avatar avatar-away">
+														<img src="assets/img/doctors/doctor-thumb-03.jpg" alt="User Image" class="avatar-img rounded-circle">
+													</div>
+												</div>
+												<div class="media-body">
+													<div>
+														<div class="user-name">Dr. Deborah Angel</div>
+														<div class="user-last-chat">Diga-me mais</div>
+													</div>
+													<div>
+														<div class="last-chat-time block">7:30 PM</div>
+														<div class="badge badge-success badge-pill">3</div>
+													</div>
+												</div>
+											</a>
+											<a href="javascript:void(0);" class="media read-chat">
+												<div class="media-img-wrap">
+													<div class="avatar avatar-online">
+														<img src="assets/img/doctors/doctor-thumb-04.jpg" alt="User Image" class="avatar-img rounded-circle">
+													</div>
+												</div>
+												<div class="media-body">
+													<div>
+														<div class="user-name">Dr. Sofia Brient</div>
+														<div class="user-last-chat">Muito bom.</div>
+													</div>
+													<div>
+														<div class="last-chat-time block">6:59 PM</div>
+													</div>
+												</div>
+											</a>
+											<a href="javascript:void(0);" class="media read-chat">
+												<div class="media-img-wrap">
+													<div class="avatar avatar-offline">
+														<img src="assets/img/doctors/doctor-thumb-05.jpg" alt="User Image" class="avatar-img rounded-circle">
+													</div>
+												</div>
+												<div class="media-body">
+													<div>
+														<div class="user-name">Dr. Marvin Campbell</div>
+														<div class="user-last-chat">Ontem já licenciei</div>
+													</div>
+													<div>
+														<div class="last-chat-time block">11:21 AM</div>
+													</div>
+												</div>
+											</a>
+											<a href="javascript:void(0);" class="media read-chat">
+												<div class="media-img-wrap">
+													<div class="avatar avatar-online">
+														<img src="assets/img/doctors/doctor-thumb-06.jpg" alt="User Image" class="avatar-img rounded-circle">
+													</div>
+												</div>
+												<div class="media-body">
+													<div>
+														<div class="user-name">Dr. Katharine Berthold</div>
+														<div class="user-last-chat">Entendi, perfeito.</div>
+													</div>
+													<div>
+														<div class="last-chat-time block">10:05 AM</div>
+													</div>
+												</div>
+											</a>
+											<a href="javascript:void(0);" class="media">
+												<div class="media-img-wrap">
+													<div class="avatar avatar-online">
+														<img src="assets/img/doctors/doctor-thumb-01.jpg" alt="User Image" class="avatar-img rounded-circle">
+													</div>
+												</div>
+												<div class="media-body">
+													<div>
+														<div class="user-name">Dra. Andreia Gomes</div>
+														<div class="user-last-chat">Como você está?</div>
+													</div>
+													<div>
+														<div class="last-chat-time block">Ontem</div>
+													</div>
+												</div>
+											</a>
+											<a href="javascript:void(0);" class="media read-chat">
+												<div class="media-img-wrap">
+													<div class="avatar avatar-offline">
+														<img src="assets/img/doctors/doctor-thumb-08.jpg" alt="User Image" class="avatar-img rounded-circle">
+													</div>
+												</div>
+												<div class="media-body">
+													<div>
+														<div class="user-name">Dr. Paul Richard</div>
+														<div class="user-last-chat">Tudo certo, irei fazer.</div>
+													</div>
+													<div>
+														<div class="last-chat-time block">Segunda</div>
+													</div>
+												</div>
+											</a>
+											<a href="javascript:void(0);" class="media read-chat">
+												<div class="media-img-wrap">
+													<div class="avatar avatar-online">
+														<img src="assets/img/doctors/doctor-thumb-09.jpg" alt="User Image" class="avatar-img rounded-circle">
+													</div>
+												</div>
+												<div class="media-body">
+													<div>
+														<div class="user-name">Dr. John Gibbs </div>
+														<div class="user-last-chat">Você teve mais?</div>
+													</div>
+													<div>
+														<div class="last-chat-time block">Sábado</div>
+													</div>
+												</div>
+											</a>
+											<a href="javascript:void(0);" class="media read-chat">
+												<div class="media-img-wrap">
+													<div class="avatar avatar-away">
+														<img src="assets/img/doctors/doctor-thumb-10.jpg" alt="User Image" class="avatar-img rounded-circle">
+													</div>
+												</div>
+												<div class="media-body">
+													<div>
+														<div class="user-name">Dr. Olga Barlow</div>
+														<div class="user-last-chat">Consigo apenas na próxima semana.</div>
+													</div>
+													<div>
+														<div class="last-chat-time block">Sexta</div>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+								<!-- /Chat Left -->
+							
+								<!-- Chat Right -->
+								<div class="chat-cont-right">
+									<div class="chat-header">
+										<a id="back_user_list" href="javascript:void(0)" class="back-user-list">
+											<i class="material-icons">chevron_left</i>
+										</a>
+										<div class="media">
+											<div class="media-img-wrap">
+												<div class="avatar avatar-online">
+													<img src="assets/img/doctors/doctor-07.jpg" alt="User Image" class="avatar-img rounded-circle">
+												</div>
+											</div>
+											<div class="media-body">
+												<div class="user-name">Dra. Linda Tobin</div>
+												<div class="user-status">online</div>
+											</div>
+										</div>
+										<div class="chat-options">
+											<a href="javascript:void(0)" data-toggle="modal" data-target="#voice_call">
+												<i class="material-icons">local_phone</i>
+											</a>
+											<a href="javascript:void(0)" data-toggle="modal" data-target="#video_call">
+												<i class="material-icons">videocam</i>
+											</a>
+											<a href="javascript:void(0)">
+												<i class="material-icons">more_vert</i>
+											</a>
+										</div>
+									</div>
+									<div class="chat-body">
+										<div class="chat-scroll">
+											<ul class="list-unstyled">
+												<li class="media received">
+													<div class="media-body">
+														<div class="msg-box">
+															<div>
+																<p>Olá. O que posso fazer por você?</p>
+																<ul class="chat-msg-info">
+																	<li>
+																		<div class="chat-time">
+																			<span>8:30 AM</span>
+																		</div>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class="media sent">
+													<div class="avatar">
+														<img src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image" class="avatar-img rounded-circle">
+													</div>
+													<div class="media-body">
+														<div class="msg-box">
+															<div>
+																<p>Estou somente testando.</p>
+																<p>Pode me contar com mais detalhes sobre as conversas?</p>
+																<ul class="chat-msg-info">
+																	<li>
+																		<div class="chat-time">
+																			<span>8:35 AM</span>
+																		</div>
+																	</li>
+																</ul>
+															</div>
+														</div>
+														<div class="msg-box">
+															<div>
+																<p>Você está aí?</p>
+																<ul class="chat-msg-info">
+																	<li>
+																		<div class="chat-time">
+																			<span>8:40 AM</span>
+																		</div>
+																	</li>
+																</ul>
+															</div>
+														</div>
+														<div class="msg-box">
+															<div>
+																<div class="chat-msg-attachments">
+																	<div class="chat-attachment">
+																		<img src="assets/img/img-02.jpg" alt="Attachment">
+																		<div class="chat-attach-caption">placeholder.jpg</div>
+																		<a href="#" class="chat-attach-download">
+																			<i class="fas fa-download"></i>
+																		</a>
+																	</div>
+																	<div class="chat-attachment">
+																		<img src="assets/img/img-03.jpg" alt="Attachment">
+																		<div class="chat-attach-caption">placeholder.jpg</div>
+																		<a href="#" class="chat-attach-download">
+																			<i class="fas fa-download"></i>
+																		</a>
+																	</div>
+																</div>
+																<ul class="chat-msg-info">
+																	<li>
+																		<div class="chat-time">
+																			<span>8:41 AM</span>
+																		</div>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class="media received">
+													<div class="media-body">
+														<div class="msg-box">
+															<div>
+																<p>Claro!</p>
+																<ul class="chat-msg-info">
+																	<li>
+																		<div class="chat-time">
+																			<span>8:42 AM</span>
+																		</div>
+																	</li>
+																</ul>
+															</div>
+														</div>
+														<div class="msg-box">
+															<div>
+																<p>Sou o responsável que irá te ajudar em seus problemas emocionais e pessoais.</p>
+																<ul class="chat-msg-info">
+																	<li>
+																		<div class="chat-time">
+																			<span>8:42 AM</span>
+																		</div>
+																	</li>
+																</ul>
+															</div>
+														</div>
+														<div class="msg-box">
+															<div>
+																<div class="chat-msg-attachments">
+																	<div class="chat-attachment">
+																		<img src="assets/img/img-04.jpg" alt="Attachment">
+																		<div class="chat-attach-caption">placeholder.jpg</div>
+																		<a href="#" class="chat-attach-download">
+																			<i class="fas fa-download"></i>
+																		</a>
+																	</div>
+																</div>
+																<ul class="chat-msg-info">
+																	<li>
+																		<div class="chat-time">
+																			<span>8:50 AM</span>
+																		</div>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class="media sent">
+													<div class="avatar">
+														<img src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image" class="avatar-img rounded-circle">
+													</div>
+													<div class="media-body">
+														<div class="msg-box">
+															<div>
+																<p>Consectetuorem ipsum dolor sit?</p>
+																<p>Ok?</p>
+																<ul class="chat-msg-info">
+																	<li>
+																		<div class="chat-time">
+																			<span>8:55 PM</span>
+																		</div>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class="chat-date">Hoje</li>
+												<li class="media sent">
+													<div class="avatar">
+														<img src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image" class="avatar-img rounded-circle">
+													</div>
+													<div class="media-body">
+														<div class="msg-box">
+															<div>
+																<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+																<ul class="chat-msg-info">
+																	<li>
+																		<div class="chat-time">
+																			<span>10:17 AM</span>
+																		</div>
+																		<ul class="chat-msg-info">
+																			<li><a href="#">Editar</a></li>
+																		</ul>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class="media received">
+													<div class="media-body">
+														<div class="msg-box">
+															<div>
+																<p>Lorem ipsum dollar sit</p>
+																<div class="chat-msg-actions dropdown">
+																	<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																		<i class="fe fe-elipsis-v"></i>
+																	</a>
+																	<div class="dropdown-menu dropdown-menu-right">
+																		<a class="dropdown-item" href="#">Delete</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class="media received">
+													<div class="avatar">
+														<img src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image" class="avatar-img rounded-circle">
+													</div>
+													<div class="media-body">
+														<div class="msg-box">
+															<div>
+																<div class="msg-typing">
+																	<span></span>
+																	<span></span>
+																	<span></span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="chat-footer">
+										<div class="input-group">
+											<div class="input-group-prepend">
+												<div class="btn-file btn">
+													<i class="fa fa-paperclip"></i>
+													<input type="file">
+												</div>
+											</div>
+											<input type="text" class="input-msg-send form-control" placeholder="Digite algo">
+											<div class="input-group-append">
+												<button type="button" class="btn msg-send-btn"><i class="fab fa-telegram-plane"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /Chat Right -->
+								
+							</div>
+						</div>
+					</div>
+					<!-- /Row -->
+
+				</div>
+
+			</div>		
+			<!-- /Page Content -->
+   
+			<!-- Footer -->
+			<footer class="footer">
+				
+				<!-- Footer Top -->
+				<div class="footer-top">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-3 col-md-6">
+							
+								<!-- Footer Widget -->
+								<div class="footer-widget footer-about">
+									<div class="footer-logo">
+										<img src="assets/img/footer-logo.png" alt="logo">
+									</div>
+									<div class="footer-about-content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+										<div class="social-icon">
+											<ul>
+												<li>
+													<a href="#" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+												</li>
+												<li>
+													<a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
+												</li>
+												<li>
+													<a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+												</li>
+												<li>
+													<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+												</li>
+												<li>
+													<a href="#" target="_blank"><i class="fab fa-dribbble"></i> </a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- /Footer Widget -->
+								
+							</div>
+							
+							<div class="col-lg-3 col-md-6">
+							
+								<!-- Footer Widget -->
+								<div class="footer-widget footer-menu">
+									<h2 class="footer-title">For Patients</h2>
+									<ul>
+										<li><a href="search.html"><i class="fas fa-angle-double-right"></i> Search for Doctors</a></li>
+										<li><a href="login.html"><i class="fas fa-angle-double-right"></i> Login</a></li>
+										<li><a href="register.html"><i class="fas fa-angle-double-right"></i> Register</a></li>
+										<li><a href="booking.html"><i class="fas fa-angle-double-right"></i> Booking</a></li>
+										<li><a href="patient-dashboard.html"><i class="fas fa-angle-double-right"></i> Patient Dashboard</a></li>
+									</ul>
+								</div>
+								<!-- /Footer Widget -->
+								
+							</div>
+							
+							<div class="col-lg-3 col-md-6">
+							
+								<!-- Footer Widget -->
+								<div class="footer-widget footer-menu">
+									<h2 class="footer-title">For Doctors</h2>
+									<ul>
+										<li><a href="appointments.html"><i class="fas fa-angle-double-right"></i> Appointments</a></li>
+										<li><a href="chat.html"><i class="fas fa-angle-double-right"></i> Chat</a></li>
+										<li><a href="login.html"><i class="fas fa-angle-double-right"></i> Login</a></li>
+										<li><a href="doctor-register.html"><i class="fas fa-angle-double-right"></i> Register</a></li>
+										<li><a href="doctor-dashboard.html"><i class="fas fa-angle-double-right"></i> Doctor Dashboard</a></li>
+									</ul>
+								</div>
+								<!-- /Footer Widget -->
+								
+							</div>
+							
+							<div class="col-lg-3 col-md-6">
+							
+								<!-- Footer Widget -->
+								<div class="footer-widget footer-contact">
+									<h2 class="footer-title">Contact Us</h2>
+									<div class="footer-contact-info">
+										<div class="footer-address">
+											<span><i class="fas fa-map-marker-alt"></i></span>
+											<p> 3556  Beech Street, San Francisco,<br> California, CA 94108 </p>
+										</div>
+										<p>
+											<i class="fas fa-phone-alt"></i>
+											+1 315 369 5943
+										</p>
+										<p class="mb-0">
+											<i class="fas fa-envelope"></i>
+											doccure@example.com
+										</p>
+									</div>
+								</div>
+								<!-- /Footer Widget -->
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<!-- /Footer Top -->
+				
+				<!-- Footer Bottom -->
+                <div class="footer-bottom">
+					<div class="container-fluid">
+					
+						<!-- Copyright -->
+						<div class="copyright">
+							<div class="row">
+								<div class="col-md-6 col-lg-6">
+									<div class="copyright-text">
+										<p class="mb-0"><a href="templateshub.net">Templates Hub</a></p>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-6">
+								
+									<!-- Copyright Menu -->
+									<div class="copyright-menu">
+										<ul class="policy-menu">
+											<li><a href="term-condition.html">Terms and Conditions</a></li>
+											<li><a href="privacy-policy.html">Policy</a></li>
+										</ul>
+									</div>
+									<!-- /Copyright Menu -->
+									
+								</div>
+							</div>
+						</div>
+						<!-- /Copyright -->
+						
+					</div>
+				</div>
+				<!-- /Footer Bottom -->
+				
+			</footer>
+			<!-- /Footer -->
+		   
+		</div>
+		<!-- /Main Wrapper -->
+		
+		<!-- Voice Call Modal -->
+		<div class="modal fade call-modal" id="voice_call">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<!-- Outgoing Call -->
+						<div class="call-box incoming-box">
+							<div class="call-wrapper">
+								<div class="call-inner">
+									<div class="call-user">
+										<img alt="User Image" src="assets/img/doctors/doctor-thumb-02.jpg" class="call-avatar">
+										<h4>Dra. Linda Tobin</h4>
+										<span>Connecting...</span>
+									</div>							
+									<div class="call-items">
+										<a href="javascript:void(0);" class="btn call-item call-end" data-dismiss="modal" aria-label="Close"><i class="material-icons">call_end</i></a>
+										<a href="voice-call.html" class="btn call-item call-start"><i class="material-icons">call</i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Outgoing Call -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Voice Call Modal -->
+		
+		<!-- Video Call Modal -->
+		<div class="modal fade call-modal" id="video_call">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+					
+						<!-- Incoming Call -->
+						<div class="call-box incoming-box">
+							<div class="call-wrapper">
+								<div class="call-inner">
+									<div class="call-user">
+										<img class="call-avatar" src="assets/img/doctors/doctor-thumb-02.jpg" alt="User Image">
+										<h4>Dra. Linda Tobin</h4>
+										<span>Calling ...</span>
+									</div>							
+									<div class="call-items">
+										<a href="javascript:void(0);" class="btn call-item call-end" data-dismiss="modal" aria-label="Close"><i class="material-icons">call_end</i></a>
+										<a href="video-call.html" class="btn call-item call-start"><i class="material-icons">videocam</i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /Incoming Call -->
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Video Call Modal -->
+	  
+		<script src="assets/js/jquery.min.js"></script>
+		
+		<!-- Bootstrap Core JS -->
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- Custom JS -->
+		<script src="assets/js/script.js"></script>
+		<!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+	
+	<script src="js/demo/datatables-demo.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/jquery.timepicker.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/main.js"></script>
+		
+	</body>
+
+<!-- doccure/chat.html  30 Nov 2019 04:12:18 GMT -->
+</html>

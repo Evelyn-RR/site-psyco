@@ -1,0 +1,329 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Exames</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this page -->
+  <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">	
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+  <!-- Fontawesome CSS -->
+  <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+
+  <!-- Favicons -->
+  <link href="images/topo.png" rel="icon">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="menuPac.html">
+        <div class="sidebar-brand-icon">
+          <img class="img-rounded" src="images/logoAgend.png">        
+        </div>
+        <div class="sidebar-brand-text mx-3">Psy.co</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href= "#">
+        <div class="sidebar-brand-icon">
+          <img style="height: 50px; width: 50px;" class="img-profile rounded-circle" src="assets/img/doctors/doctor-07.jpg">     
+        </div>
+        <br>
+        <div class="sidebar-brand-text mx-3">Dra. Linda Tobin</div>
+      </a>
+
+ <!-- Divider -->
+ <hr class="sidebar-divider my-0">
+
+ <!-- Nav Item - Dashboard -->
+ <li class="nav-item">
+   <a class="nav-link" href="chat-do-profissional.html">
+	 <i class="fas fa-fw fa-tachometer-alt"></i>
+	 <span>Conversa com Paciente</span></a>
+ </li>
+   <!-- Divider -->
+   <hr class="sidebar-divider my-0">
+
+   <!-- Nav Item - Dashboard -->
+   <li class="nav-item">
+	 <a class="nav-link" href="chat-do-profissional2.html">
+	   <i class="fas fa-fw fa-tachometer-alt"></i>
+	   <span>Conversa com Psiquiatra</span></a>
+   </li>
+	   <!-- Divider -->
+	   <hr class="sidebar-divider my-0">
+
+	   <!-- Nav Item - Dashboard -->
+	   <li class="nav-item">
+		 <a class="nav-link" href="buscarPsiquiatra.html">
+		   <i class="fas fa-fw fa-tachometer-alt"></i>
+		   <span>Buscar Psiquiatra</span></a>
+		 </li>
+ <!-- Divider -->
+ <hr class="sidebar-divider">
+
+ <li class="nav-item">
+ <a class="nav-link" href="#">
+	 <span>Consultas por:</span></a>
+ </li>
+
+<li class="nav-item">
+  <a class="nav-link" href="audioProf.html">
+	<i class= "fas fa-microphone"></i>
+	<span>Áudio</span></a>
+  </li>
+
+  <li class="nav-item">
+	<a class="nav-link" href="videoProf.html">
+	  <i class="fas fa-video"></i>
+	  <span>Vídeo</span></a>
+	</li>
+
+			 <!-- Divider -->
+			 <hr class="sidebar-divider d-none d-md-block">
+
+			 <!-- Sidebar Toggler (Sidebar) -->
+			 <div class="text-center d-none d-md-inline">
+			   <button class="rounded-circle border-0" id="sidebarToggle"></button>
+			 </div>
+		   </ul>
+		   <!-- End of Sidebar -->  
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+           <br>
+
+        </nav>
+
+        <!-- Page Content -->
+			<div class="content">
+        
+				<div class="container">
+
+         <!-- Page Heading -->
+        <h1 class="h3 mb-4 text-gray-800">Consulta por áudio.</h1>
+
+					<!-- Call Wrapper -->
+					<div class="call-wrapper">
+						<div class="call-main-row">
+							<div class="call-main-wrapper">
+								<div class="call-view">
+									<div class="call-window">
+									
+										<!-- Call Header -->
+										<div class="fixed-header">
+											<div class="navbar">
+												<div class="user-details mr-auto">
+													<div class="float-left user-img">
+														<a class="avatar avatar-sm mr-2" href="#" title="Charlene Reed">
+															<img src="assets/img/doctors/doctor-07.jpg" alt="User Image" class="rounded-circle">
+															<span class="status online"></span>
+														</a>
+													</div>
+													<div class="user-info float-left">
+														<a href="#"><span>Dra. Linda Tobin</span></a>
+														<span class="last-seen">Online</span>
+													</div>
+												</div>
+												<ul class="nav float-right custom-menu">
+													<li class="nav-item dropdown dropdown-action">
+														<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-cog"></i></a>
+														<div class="dropdown-menu dropdown-menu-right">
+															<a href="javascript:void(0)" class="dropdown-item">Definições</a>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<!-- /Call Header -->
+										
+										<!-- Call Contents -->
+										<div class="call-contents">
+											<div class="call-content-wrap">
+												<div class="voice-call-avatar">
+													<img src="assets/img/patients/patient.jpg" alt="User Image" class="call-avatar">
+													<span class="username">Matheus Lucas</span>
+													<span class="call-timing-count">00:59</span>
+												</div>
+												<div class="call-users">
+													<ul>
+														<li>
+															<a href="#">
+																<img src="images/pacienteM.png" class="img-fluid" alt="User Image">
+																<span class="call-mute"><i class="fa fa-microphone-slash"></i></span>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<!-- /Call Contents -->
+										
+										<!-- Call Footer -->
+										<div class="call-footer">
+											<div class="call-icons">
+												<ul class="call-items">
+													<li class="call-item">
+														<a href="#" title="Enable Video" data-placement="top" data-toggle="tooltip">
+															<i class="fas fa-video camera"></i>
+														</a>
+													</li>
+													<li class="call-item">
+														<a href="#" title="Mute" data-placement="top" data-toggle="tooltip">
+															<i class="fa fa-microphone microphone"></i>
+														</a>
+													</li>
+													<li class="call-item">
+														<a href="#" title="Add User" data-placement="top" data-toggle="tooltip">
+															<i class="fa fa-user-plus"></i>
+														</a>
+													</li>
+												</ul>
+												<div class="end-call">
+													<a href="javascript:void(0);">
+														<i class="material-icons">call_end</i>
+													</a>
+												</div>
+											</div>
+										</div>
+										<!-- /Call Footer -->
+									
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<!-- /Call Wrapper -->
+					
+				</div>
+
+			</div>		
+			<!-- /Page Content -->
+        
+
+      </div>
+      <!-- End of Main Content -->
+      <br>
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; 2020 &mdash; Psy.co</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Deseja sair?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Selecione "Sair" para encerar sua sessção.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+          <a class="btn btn-primary" href="login.html">Sair</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+  <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/datatables-demo.js"></script>
+
+</body>
+
+</html>

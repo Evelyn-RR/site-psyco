@@ -1,0 +1,537 @@
+<!DOCTYPE html> 
+<html lang="en">
+	
+<!-- doccure/my-patients.html  30 Nov 2019 04:12:09 GMT -->
+<head>
+		<meta charset="utf-8">
+		<title>Doccure</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		
+		<!-- Favicons -->
+		<link href="assets/img/favicon.png" rel="icon">
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- Fontawesome CSS -->
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+		
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+	  
+		<link rel="stylesheet" href="css/aos.css">
+	  
+		<link rel="stylesheet" href="css/ionicons.min.css">
+	  
+		<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+		<link rel="stylesheet" href="css/jquery.timepicker.css">
+	  
+		
+		<link rel="stylesheet" href="css/flaticon.css">
+		<link rel="stylesheet" href="fonts/flaticon2/font/flaticon2.css">
+		<link rel="stylesheet" href="fonts/flaticon3/font/flaticon3.css">
+		<link rel="stylesheet" href="css/icomoon.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.min.js"></script>
+			<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	
+	</head>
+	<body>
+<!-- Itens de Navegação -->
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	<div class="container">
+	<a class="navbar-brand" href="menuProf.html"><img class="img-logo" src="images/logo.png" alt="" ></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="oi oi-menu"></span> Menu
+	</button>
+
+	  <div class="collapse navbar-collapse " id="ftco-nav">
+		<ul class="navbar-nav ml-auto">
+		  <li class="nav-item"><a href="menuProf.html" class="nav-link">Menu</a></li>
+		<li class="nav-item active"><a class="nav-link" href="perfilProf.html">Perfil</a></li>
+		<li class="nav-item "><a href="chat-do-profissional.html" class="nav-link">Conversa</a></li>
+		<li class="nav-item"><a href="buscarPsiquiatra.html" class="nav-link">Receita Médica</a></li>
+		<li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Solicitar Emergência</span></a></li>
+		<li class="nav-item cta"><a href="index.html" class="nav-link"><span>Sair</span></a></li>
+		</ul>
+	  </div>
+	</div>
+  </nav>
+      <!-- Background -->
+	  <div class="banner-chat img" id="section-counter" style="background-image: url(images/bg_2.jpg);">
+		<div id="Inicio" class="row-2 align-items-center" data-scrollax-parent="true">
+		  <div class="col-md-12 wrap col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+			<h1 class="mb-4 mt-5 text-center txt-banner" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Perfil</h1>
+		  </div>
+		</div>
+	  </div>			
+			<!-- Page Content -->
+			<div class="content">
+				<div class="container-fluid">
+
+					<div class="row">
+						<div class="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">
+						
+							<!-- Profile Sidebar -->
+							<div class="profile-sidebar">
+								<div class="widget-profile pro-widget-content">
+									<div class="profile-info-widget">
+										<a href="#" class="booking-doc-img">
+											<img src="assets/img/doctors/doctor-thumb-07.jpg" alt="User Image">
+										</a>
+										<div class="profile-det-info">
+											<h3>Dra. Linda Tobin</h3>
+											
+											<div class="patient-details">
+												<h5 class="mb-0">Psicóloga</h5>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="dashboard-widget">
+									<nav class="dashboard-menu">
+										<ul>
+											<li>
+												<a href="doctor-dashboard.html">
+													<i class="fas fa-columns"></i>
+													<span>Painel de Controle</span>
+												</a>
+											</li>
+											<li>
+												<a href="appointments.html">
+													<i class="fas fa-calendar-check"></i>
+													<span>Compromissos</span>
+												</a>
+											</li>
+											<li class="active">
+												<a href="my-patients.html">
+													<i class="fas fa-user-injured"></i>
+													<span>Meus Pacientes</span>
+												</a>
+											</li>
+											<li>
+												<a href="schedule-timings.html">
+													<i class="fas fa-hourglass-start"></i>
+													<span>Horários</span>
+												</a>
+											</li>
+											<li>
+												<a href="reviews.html">
+													<i class="fas fa-star"></i>
+													<span>Comentários</span>
+												</a>
+											</li>
+											<li >
+												<a href="perfilProf.html">
+													<i class="fas fa-user-cog"></i>
+													<span>Configurações do Perfil</span>
+												</a>
+											</li>
+											<li>
+												<a href="doctor-change-password.html">
+													<i class="fas fa-lock"></i>
+													<span>Mudar a Senha</span>
+												</a>
+											</li>
+											<li>
+												<a href="index.html">
+													<i class="fas fa-sign-out-alt"></i>
+													<span>Sair</span>
+												</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<!-- /Profile Sidebar -->
+							
+							
+						</div>
+						<div class="col-md-7 col-lg-8 col-xl-9">
+						
+							<div class="row row-grid">
+								<div class="col-md-6 col-lg-4 col-xl-3">
+									<div class="card widget-profile pat-widget-profile">
+										<div class="card-body">
+											<div class="pro-widget-content">
+												<div class="profile-info-widget">
+													<a href="patient-profile.html" class="booking-doc-img">
+														<img src="assets/img/patients/patient.jpg" alt="User Image">
+													</a>
+													<div class="profile-det-info">
+														<h3><a href="patient-profile.html">Matheus Lucas</a></h3>
+														
+														<div class="patient-details">
+															<h5><b>Paciente ID :</b> P0016</h5>
+															<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Sorocaba, Brasil</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="patient-info">
+												<ul>
+													<li>Telefone <span>+1 952 001 8563</span></li>
+													<li>Idade <span>38 Anos, Masculino</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-6 col-lg-4 col-xl-3">
+									<div class="card widget-profile pat-widget-profile">
+										<div class="card-body">
+											<div class="pro-widget-content">
+												<div class="profile-info-widget">
+													<a href="patient-profile.html" class="booking-doc-img">
+														<img src="assets/img/patients/patient1.jpg" alt="User Image">
+													</a>
+													<div class="profile-det-info">
+														<h3><a href="patient-profile.html">Charlene Reed</a></h3>
+														
+														<div class="patient-details">
+															<h5><b>Paciente ID :</b> P0001</h5>
+															<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Ibiúna, Brasil</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="patient-info">
+												<ul>
+													<li>Telefone <span>+1 828 632 9170</span></li>
+													<li>Idade <span>29 Anos, Feminino</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-6 col-lg-4 col-xl-3">
+									<div class="card widget-profile pat-widget-profile">
+										<div class="card-body">
+											<div class="pro-widget-content">
+												<div class="profile-info-widget">
+													<a href="#" class="booking-doc-img">
+														<img src="assets/img/patients/patient2.jpg" alt="User Image">
+													</a>
+													<div class="profile-det-info">
+														<h3>Travis Trimble </h3>
+														<div class="patient-details">
+															<h5><b>Paciente ID :</b> PT0002</h5>
+															<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> São Roque, Brasil</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="patient-info">
+												<ul>
+													<li>Telefone <span>+1 207 729 9974</span></li>
+													<li>Idade <span>23 Anos, Masculino</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-6 col-lg-4 col-xl-3">
+									<div class="card widget-profile pat-widget-profile">
+										<div class="card-body">
+											<div class="pro-widget-content">
+												<div class="profile-info-widget">
+													<a href="#" class="booking-doc-img">
+														<img src="assets/img/patients/patient3.jpg" alt="User Image">
+													</a>
+													<div class="profile-det-info">
+														<h3>Carl Kelly</h3>
+														<div class="patient-details">
+															<h5><b>Paciente ID :</b> PT0003</h5>
+															<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Mairique, Brasil</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="patient-info">
+												<ul>
+													<li>Telefone <span>+1 260 724 7769</span></li>
+													<li>Idade <span>32 Anos, Masculino</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-6 col-lg-4 col-xl-3">
+									<div class="card widget-profile pat-widget-profile">
+										<div class="card-body">
+											<div class="pro-widget-content">
+												<div class="profile-info-widget">
+													<a href="#" class="booking-doc-img">
+														<img src="assets/img/patients/patient4.jpg" alt="User Image">
+													</a>
+													<div class="profile-det-info">
+														<h3>Michelle Fairfax</h3>
+														<div class="patient-details">
+															<h5><b>Paciente ID :</b> PT0004</h5>
+															<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Ibiúna, Brasil</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="patient-info">
+												<ul>
+													<li>Telefone <span>+1 504 368 6874</span></li>
+													<li>Idade <span>25 Anos, Feminino</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-6 col-lg-4 col-xl-3">
+									<div class="card widget-profile pat-widget-profile">
+										<div class="card-body">
+											<div class="pro-widget-content">
+												<div class="profile-info-widget">
+													<a href="#" class="booking-doc-img">
+														<img src="assets/img/patients/patient5.jpg" alt="User Image">
+													</a>
+													<div class="profile-det-info">
+														<h3>Gina Moore</h3>
+														<div class="patient-details">
+															<h5><b>Paciente ID :</b> PT0005</h5>
+															<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Piedade, Brasil</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="patient-info">
+												<ul>
+													<li>Telefone <span>+1 954 820 7887</span></li>
+													<li>Idade <span>25 Anos, Feminino</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-6 col-lg-4 col-xl-3">
+									<div class="card widget-profile pat-widget-profile">
+										<div class="card-body">
+											<div class="pro-widget-content">
+												<div class="profile-info-widget">
+													<a href="#" class="booking-doc-img">
+														<img src="assets/img/patients/patient6.jpg" alt="User Image">
+													</a>
+													<div class="profile-det-info">
+														<h3>Elsie Gilley</h3>
+														<div class="patient-details">
+															<h5><b>Paciente ID :</b> PT0006</h5>
+															<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> São Paulo, Brasil</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="patient-info">
+												<ul>
+													<li>Telefone <span>+1 315 384 4562</span></li>
+													<li>Idade <span>14 Anos, Feminino</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-6 col-lg-4 col-xl-3">
+									<div class="card widget-profile pat-widget-profile">
+										<div class="card-body">
+											<div class="pro-widget-content">
+												<div class="profile-info-widget">
+													<a href="#" class="booking-doc-img">
+														<img src="assets/img/patients/patient7.jpg" alt="User Image">
+													</a>
+													<div class="profile-det-info">
+														<h3>Joan Gardner</h3>
+														<div class="patient-details">
+															<h5><b>Paciente ID :</b> PT0007</h5>
+															<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Indaiatuba, Brasil</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="patient-info">
+												<ul>
+													<li>Telefone <span>+1 707 2202 603</span></li>
+													<li>Idade <span>25 Anos, Feminino</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-6 col-lg-4 col-xl-3">
+									<div class="card widget-profile pat-widget-profile">
+										<div class="card-body">
+											<div class="pro-widget-content">
+												<div class="profile-info-widget">
+													<a href="#" class="booking-doc-img">
+														<img src="assets/img/patients/patient8.jpg" alt="User Image">
+													</a>
+													<div class="profile-det-info">
+														<h3>Daniel Griffing</h3>
+														<div class="patient-details">
+															<h5><b>Paciente ID :</b> PT0007</h5>
+															<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Sorocaba, Brasil</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="patient-info">
+												<ul>
+													<li>Telefone <span>+1 973 773 9497</span></li>
+													<li>Idade <span>28 Anos, Masculino</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-6 col-lg-4 col-xl-3">
+									<div class="card widget-profile pat-widget-profile">
+										<div class="card-body">
+											<div class="pro-widget-content">
+												<div class="profile-info-widget">
+													<a href="#" class="booking-doc-img">
+														<img src="assets/img/patients/patient9.jpg" alt="User Image">
+													</a>
+													<div class="profile-det-info">
+														<h3>Walter Roberson</h3>
+														<div class="patient-details">
+															<h5><b>Paciente ID :</b> PT0009</h5>
+															<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Piedade, Brasil</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="patient-info">
+												<ul>
+													<li>Telefone <span>+1 850 358 4445</span></li>
+													<li>Idade <span>28 Anos, Masculino</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-6 col-lg-4 col-xl-3">
+									<div class="card widget-profile pat-widget-profile">
+										<div class="card-body">
+											<div class="pro-widget-content">
+												<div class="profile-info-widget">
+													<a href="#" class="booking-doc-img">
+														<img src="assets/img/patients/patient10.jpg" alt="User Image">
+													</a>
+													<div class="profile-det-info">
+														<h3>Robert Rhodes</h3>
+														<div class="patient-details">
+															<h5><b>Paciente ID :</b> PT0010</h5>
+															<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Ibiúna, Brasil</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="patient-info">
+												<ul>
+													<li>Telefone <span>+1 858 259 5285</span></li>
+													<li>Idade <span>19 Anos, Masculino</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-6 col-lg-4 col-xl-3">
+									<div class="card widget-profile pat-widget-profile">
+										<div class="card-body">
+											<div class="pro-widget-content">
+												<div class="profile-info-widget">
+													<a href="#" class="booking-doc-img">
+														<img src="assets/img/patients/patient11.jpg" alt="User Image">
+													</a>
+													<div class="profile-det-info">
+														<h3>Harry Williams</h3>
+														<div class="patient-details">
+															<h5><b>Paciente ID :</b> PT0011</h5>
+															<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> São Roque, Brasil</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="patient-info">
+												<ul>
+													<li>Telefone <span>+1 303 607 7075</span></li>
+													<li>Idade <span>9 Anos, Masculino</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>		
+			<!-- /Page Content -->
+   
+		</div>
+		<!-- /Main Wrapper -->
+	  
+		<!-- jQuery -->
+		<script src="assets/js/jquery.min.js"></script>
+		
+		<!-- Bootstrap Core JS -->
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- Sticky Sidebar JS -->
+        <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+        <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+		
+		<!-- Custom JS -->
+		<script src="assets/js/script.js"></script>
+		<script src="assets/js/script.js"></script>
+		<script src="js/demo/datatables-demo.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-migrate-3.0.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/aos.js"></script>
+		<script src="js/jquery.animateNumber.min.js"></script>
+		<script src="js/bootstrap-datepicker.js"></script>
+		<script src="js/jquery.timepicker.min.js"></script>
+		<script src="js/scrollax.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+		<script src="js/google-map.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+
+<!-- doccure/my-patients.html  30 Nov 2019 04:12:09 GMT -->
+</html>
