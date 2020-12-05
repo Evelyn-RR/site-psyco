@@ -1,6 +1,8 @@
 # site-psyco
  Desenvolvimento de um site para inovar um serviço em decadência durante o período de pandemia.
  [Link do Trello](https://trello.com/b/BrYr0UIX/backlog-fábrica) 
+ ![Logo e Slogan](https://github.com/Evelyn-RR/site-psyco/blob/main/Readme.imgs/Captura%20de%20Tela%20(235).png)
+  ![Instituição](aaa)
  
  ## **1. Problematização**
 Devido ao isolamento social decorrente da pandemia, as pessoas vêm sofrendo dificuldades em suas consultas com psicólogos, o que acarreta negativamente em suas emoções e comportamentos. Pensando nisso desenvolvemos uma plataforma organizada de comunicação remota visual e textual entre paciente e profissional da área de psicologia.
@@ -38,10 +40,10 @@ Nosso projeto é feito totalmente a fins de estudo e não visamos monetizar noss
 
 ## **4. Modelagem relacional do banco de dados**
 ### *  DER <br />
-![DER](aaa)
+![DER](https://github.com/Evelyn-RR/site-psyco/blob/main/Readme.imgs/Captura%20de%20Tela%20(236).png)
 
-## **5. Telas do projeto**
-![telas](aaaa)
+## **5. Landing page**
+![telas](https://github.com/Evelyn-RR/site-psyco/blob/main/Readme.imgs/video%20para%20o%20github%20(1).gif)
 
 ## **6. Agradecimentos**
-Todos nós do projeto agradecemos aos professores Rafael, e a Facens no geral, pela oportunidade e espaço dado aos alunos para construir um sistema de apoio mental.
+Todos nós do projeto agradecemos aos professores Rafael Fernando de Moraes Moreno, e a Facens no geral, pela oportunidade e espaço dado aos alunos para construir um sistema de apoio mental.
