@@ -25,7 +25,7 @@ Desenvolvimento da matéria Fabrica de projetos da instituição FACENS. O proje
 Nosso projeto é feito totalmente a fins de estudo e não visamos monetizar nosso sistema, reservando os direitos autorais para a empresa detentora dos mesmos, Game Freak, Creatures Inc e Nintendo. Escolhemos esse logo pois o personagem Psyduck é constantemente atordoado por sua dor de cabeça e é incapaz de pensar com muita clareza, Porem quando se acalma persebe o quão forte ele é. escolhemos o nome Psy.co de Psy da área de psicologia que trabalha com a mente e co de comunicação, pois conseguimos viver melhor pensando bem.
 
 ## **4.  Linguagem usadas**
-- [x]Back-end:
+- [x] Back-end:
 - Spring tool 
 - MySQL
 
