@@ -1,8 +1,8 @@
 # :computer: site Psy.co
  Desenvolvimento de um site para inovar um serviço em decadência durante o período de pandemia.
- [Link do Trello](https://trello.com/b/BrYr0UIX/backlog-fábrica) 
+ [Link do Trello](https://github.com/Evelyn-RR/site-psyco/blob/main/Readme.imgs/logo.png) 
  
-# :triangular_flag_on_post: Logo e Slogan
+# :triangular_flag_on_post: Logo
 ![Logo e Slogan](https://github.com/Evelyn-RR/site-psyco/blob/main/Readme.imgs/Captura%20de%20Tela%20(235).png)
  
 # :school: Instituição de ensino superior
@@ -27,10 +27,7 @@ Desenvolvimento da matéria Fabrica de projetos da instituição FACENS. O proje
 	O usuário de emergência, deve ter o cadastro feito e responder ao questionário de urgência para deixar registrado no perfil, caso venha a ter alguma crise o botão de emergência redireciona automaticamente a um psicólogo. 
 	Caso tenha uma crise, mas não tem um cadastro, o botão de emergência redireciona o usuário ao site do CVV (Centro de Valorização da Vida – site de apoio emocional e prevenção do suicídio).
 
-## :label: **3.  Por que esse nome e logo?**
-Nosso projeto é feito totalmente a fins de estudo e não visamos monetizar nosso sistema, reservando os direitos autorais para a empresa detentora dos mesmos, Game Freak, Creatures Inc e Nintendo. Escolhemos esse logo pois o personagem Psyduck é constantemente atordoado por sua dor de cabeça e é incapaz de pensar com muita clareza, Porem quando se acalma persebe o quão forte ele é. escolhemos o nome Psy.co de Psy da área de psicologia que trabalha com a mente e co de comunicação, pois conseguimos viver melhor pensando bem.
-
-## :briefcase: **4.  Linguagem usadas**
+## :briefcase: **5.  Linguagem usadas**
 - [x] Back-end:
 - Spring tool 
 - MySQL
@@ -42,12 +39,12 @@ Nosso projeto é feito totalmente a fins de estudo e não visamos monetizar noss
 - Boostrap
 
 
-##  :pushpin: **4. Modelagem relacional do banco de dados**
+##  :pushpin: **6. Modelagem relacional do banco de dados**
 ### *  DER <br />
 ![DER](https://github.com/Evelyn-RR/site-psyco/blob/main/Readme.imgs/Captura%20de%20Tela%20(236).png)
 
-## :technologist: **5. Landing page**
-![telas](https://github.com/Evelyn-RR/site-psyco/blob/main/Readme.imgs/video%20para%20o%20github%20(1).gif)
+## :technologist: **7 Landing page**
+![telas](https://github.com/Evelyn-RR/site-psyco/blob/main/Readme.imgs/gif-home.gif)
 
-## :pray: **6. Agradecimentos**
+## :pray: **8 Agradecimentos**
 Todos nós do projeto agradecemos aos professores Rafael Fernando de Moraes Moreno, e a Facens no geral, pela oportunidade e espaço dado aos alunos para construir um sistema de apoio mental.
