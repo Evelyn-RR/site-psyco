@@ -1,9 +1,9 @@
 # :computer: site Psy.co
  Desenvolvimento de um site para inovar um serviço em decadência durante o período de pandemia.
- [Link do Trello](https://github.com/Evelyn-RR/site-psyco/blob/main/Readme.imgs/logo.png) 
+ [Link do Trello](https://trello.com/b/BrYr0UIX/backlog-f%C3%A1brica)
  
 # :triangular_flag_on_post: Logo
-![Logo e Slogan](https://github.com/Evelyn-RR/site-psyco/blob/main/Readme.imgs/Captura%20de%20Tela%20(235).png)
+![Logo e Slogan](https://github.com/Evelyn-RR/site-psyco/blob/main/Readme.imgs/logo2.png)
  
 # :school: Instituição de ensino superior
 ![Instituição](https://github.com/Evelyn-RR/site-psyco/blob/main/Readme.imgs/facens.jpg)
